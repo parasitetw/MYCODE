@@ -1,0 +1,4 @@
+(@Start_Date >= Start_Date AND @End_Date <= End_Date)
+			OR (@Start_Date < Start_Date AND @End_Date > End_Date)
+			OR (@Start_Date < End_Date AND @End_Date > End_Date)
+			OR (@End_Date > Start_Date AND @Start_Date < Start_Date)
